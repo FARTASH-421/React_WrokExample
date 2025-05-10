@@ -16,3 +16,10 @@ h1{
 h1:hover{
   background-color: greenyellow;
 }
+
+.myInput{
+  padding: 20px;
+  margin: 30px 40px;
+  border-radius: 30px;
+  font-size: 2rem;
+}
