@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import Emplyee from "./components/Employee";
 import { useState } from "react";
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="bg-blue-400 h-full w-full text-center">
         {chcek ? (
           <>
             <input
