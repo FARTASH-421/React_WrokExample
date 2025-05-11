@@ -8,7 +8,7 @@ function Emplyee(props) {
             Hello {props.name}
           </p>
         ) : (
-          <p className="noex"> no body</p>
+          <p className="bg-yellow-300 "> no body</p>
         )}
       </div>
       <h6 className="text-center">
