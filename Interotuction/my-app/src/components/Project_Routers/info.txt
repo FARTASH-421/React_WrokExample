@@ -1,2 +1,3 @@
 
 npm i react-router
+npm i -D react-router-dom@latest
