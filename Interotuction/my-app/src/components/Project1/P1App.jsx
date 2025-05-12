@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 
 function P1App() {
 
+  // eslint-disable-next-line no-unused-vars
   const [employees, setEmployees] = useState([
     {
       name: "Fartash",
