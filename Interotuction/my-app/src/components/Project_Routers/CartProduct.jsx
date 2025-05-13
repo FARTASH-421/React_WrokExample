@@ -4,7 +4,7 @@ function CartProduct(props) {
   return (
     <div className="flex flex-col justify-around items-center h-[600px] w-96 mx-3 my-4 border-purple-400 border-2 overflow-hidden shadow-[0_0_10px_black] rounded-3xl">
       <div className="h-3/5 w-full bg-red-600 overflow-hidden">
-        <img src={props.img} alt="" />
+        <img src={props.img} alt="" className="object-cover h-full w-full" />
       </div>
       <div className="h-2/5 w-full bg-blue-700">
         <div className="h-1/3 w-full p-2">

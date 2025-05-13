@@ -6,7 +6,7 @@ function Product() {
       <h1 className="text-center text-blue-500 font-serif m-2">
         Products Page
       </h1>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-evenly">
         <CartProduct
           img={
             "https://cdn.pixabay.com/photo/2015/07/14/06/09/man-844212_640.jpg"
@@ -14,7 +14,7 @@ function Product() {
         />
         <CartProduct
           img={
-            "https://cdn.pixabay.com/photo/2015/07/14/06/09/man-844212_640.jpg"
+            "https://media.istockphoto.com/id/1250272967/fr/photo/verticale-de-lhomme-a%C3%AEn%C3%A9-choqu%C3%A9.webp?s=612x612&w=is&k=20&c=m6suLyXhRsfg78_NAvOSM5zojUOCP5E7RJYlELPwfi8="
           }
         />
         <CartProduct
